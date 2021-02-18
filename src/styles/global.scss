@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Custom Properties */
+
+:root {
+  --ff-primary: "Lora", serif;
+  --ff-secondary: "Ubuntu", sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --clr-accent: #e3cf5f;
+  --clr-light: #fefefe;
+
+  --fs-h1: 5rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+}
+
+/* falopa */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+}
+
+/* .carrousel {
+  /* position: relative; */
+/* width: 100%;
+  margin: 0 auto;
+} */
+/*  */
+/* .carrousel .carrousel-item,
+.carrousel .carrousel-item-hidden {
+  display: none;
+  margin: 0 auto;
+}
+
+.carrousel .carrousel-item-visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+} */
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
